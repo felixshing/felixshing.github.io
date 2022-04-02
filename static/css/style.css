@@ -260,6 +260,8 @@ ol li {
 
 .text_block {
     color: #000;
+    margin: 0 0;
+    padding: 5 0
 }
 
 .text_block:hover {
