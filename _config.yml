@@ -1,10 +1,10 @@
 title: CS Conference Tracker # (Maintained by @abhshkdz, modified by @liecn)
 description: Track the top computer science conferences, covering the mobility of systems, artificial intelligence, data communication, computer-human interaction, etc.
 
-url: "https://cnli.me"
+url: "https://felixshing.github.io"
 
 conf_author: Abhishek Das
-author: Chenning Li
+author: Ruizhi Cheng
 
 domain: "conference"
 baseurl: ""
