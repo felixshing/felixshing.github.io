@@ -37,13 +37,14 @@ h1 {
     /*text-transform: uppercase;*/
     letter-spacing: 1px;
     /*font-weight: 500;*/
-    /*font-size: 30px;*/
+    /*font-size: 20px*/
 }
 
 h2 {
     /*font: normal 125% 'century gothic', arial, sans-serif;*/
     /*color: #A4AA04;*/
     color: #002060;
+    font-size: 20px;
 }
 
 h3 {
@@ -97,6 +98,7 @@ h6 {
     margin-right: -10px;
     width: 100%;
     overflow: hidden;
+    font-size: 22px;
 }
 
 .col-2,
@@ -187,9 +189,9 @@ a:hover {
     outline: none;
     text-decoration: none;
     /*color: #323232;*/
-    /* color:#5c307d; /* Tsinghua color */
-    color: #18453b
-    /*color: #de4d00; // Princeton color*/
+    color:#5c307d; /* Tsinghua color */
+    /*color: #18453c*/
+    /*color: #de4d00; /*Princeton color*!*/
 }
 
 a:not([href]):before {
@@ -261,7 +263,7 @@ ol li {
 .text_block {
     color: #000;
     margin: 0 0;
-    padding: 5 0
+    font-size : 22px;
 }
 
 .text_block:hover {
@@ -332,7 +334,7 @@ ol li {
 .name {
     float: right;
     margin-left: 1px;
-    width: 60%;
+    width: 70%;
 }
 
 #logo {
@@ -356,7 +358,7 @@ ol li {
 }
 
 #logo h2 {
-    font-size: 120%;
+    font-size: 150%;
     padding: 0px 0 0 0;
     margin: 0 0 5px 0;
     /*color: #5D5D5D;*/
