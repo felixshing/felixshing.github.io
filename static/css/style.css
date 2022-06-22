@@ -4,7 +4,7 @@ body {
     /*font: normal 0.95em 'Roboto', Helvetica, Arial, 'century gothic', 'Microsoft YaHei', arial, sans-serif;*/
     /*background: #f3f5f8;  */
     font-family: 'Roboto', Helvetica, Arial, 'century gothic', 'Microsoft YaHei', sans-serif;
-    font-size: 18px;
+    /*font-size: 18px;*/
     color: #000000;
 }
 
@@ -44,7 +44,7 @@ h2 {
     /*font: normal 125% 'century gothic', arial, sans-serif;*/
     /*color: #A4AA04;*/
     color: #002060;
-    font-size: 20px;
+    /*font-size: 20px;*/
 }
 
 h3 {
@@ -263,7 +263,7 @@ ol li {
 .text_block {
     color: #000;
     margin: 0 0;
-    font-size : 24px;
+    font-size : 30px;
 }
 
 .text_block:hover {
