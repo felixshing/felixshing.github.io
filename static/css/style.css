@@ -189,9 +189,10 @@ a:hover {
     outline: none;
     text-decoration: none;
     /*color: #323232;*/
-    color:#5c307d; /* Tsinghua color */
+    /*color:#5c307d; !* Tsinghua color *!*/
     /*color: #18453c*/
     /*color: #de4d00; /*Princeton color*!*/
+    color: #0d87e9;
 }
 
 a:not([href]):before {
@@ -331,6 +332,13 @@ ol li {
     border-radius: 50px 50px 50px 50px;
 }
 
+.map{
+      position:absolute;
+    left:950px;
+    top:50px;
+
+
+}
 .name {
     float: right;
     margin-left: 1px;
