@@ -4,13 +4,15 @@ body {
     /*font: normal 0.95em 'Roboto', Helvetica, Arial, 'century gothic', 'Microsoft YaHei', arial, sans-serif;*/
     /*background: #f3f5f8;  */
     font-family: 'Roboto', Helvetica, Arial, 'century gothic', 'Microsoft YaHei', sans-serif;
-    font-size: 18px;
+    font-size: 20px;
     color: #000000;
+    margin:0px 0px 0px 0px;
 }
 
 p {
     padding: 0 0 20px 0;
     line-height: 1.7em;
+
 }
 
 img {
@@ -94,11 +96,13 @@ h6 {
 }
 
 .row {
-    margin-left: -10px;
-    margin-right: -10px;
+    /*margin-left: -10px;*/
+    /*margin-right: -10px;*/
     width: 100%;
     overflow: hidden;
     font-size: 22px;
+  /*   padding: -1rem;*/
+  /*margin-bottom: 1rem;*/
 }
 
 .col-2,
