@@ -4,13 +4,13 @@ body {
     /*font: normal 0.95em 'Roboto', Helvetica, Arial, 'century gothic', 'Microsoft YaHei', arial, sans-serif;*/
     /*background: #f3f5f8;  */
     font-family: 'Roboto', Helvetica, Arial, 'century gothic', 'Microsoft YaHei', sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     color: #000000;
     margin:0px 0px 0px 0px;
 }
 
 p {
-    padding: 0 0 20px 0;
+    padding: 0 0 14px 0;
     line-height: 1.7em;
 
 }
