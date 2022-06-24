@@ -1,5 +1,5 @@
 ## BioPage: [felixshing.github.io](https://felixshing.github.io/)
 
-Forked from [Chenning Li](https://cnli.me/)
+Forked from https://github.com/liecn/cnli.me
 
 
