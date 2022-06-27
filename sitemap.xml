@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://felixshing.github.io/</loc>
+  <lastmod>2022-06-27T16:47:47+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://felixshing.github.io/index.html</loc>
+  <lastmod>2022-06-27T16:47:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://felixshing.github.io/papers/Metabuild_2022_Workrooms.pdf</loc>
+  <lastmod>2022-06-27T16:47:45+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://felixshing.github.io/papers/Metaverse_Visionary_Paper.pdf</loc>
+  <lastmod>2022-06-27T16:47:45+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
+</urlset>
