@@ -343,6 +343,8 @@ ol li {
     /*height: 250px;*/
     /*text-align: center;*/
     /*overflow: hidden;*/
+      text-align: center;
+    overflow: hidden;
       position:absolute;
     left:900px;
     top:50px;
