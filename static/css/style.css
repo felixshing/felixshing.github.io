@@ -338,14 +338,14 @@ ol li {
 }
 
 .map{
-    float: right;
-     width: 250px;
-    height: 250px;
-    text-align: center;
-    overflow: hidden;
-    /*  position:absolute;*/
-    /*left:900px;*/
-    /*top:50px;*/
+    /*float: right;*/
+    /* width: 250px;*/
+    /*height: 250px;*/
+    /*text-align: center;*/
+    /*overflow: hidden;*/
+      position:absolute;
+    left:900px;
+    top:50px;
 
 
 }
