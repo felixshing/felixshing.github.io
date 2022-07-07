@@ -403,13 +403,14 @@ ol li {
 }
 
 #menubar {
-    height: auto;
+    /*height: auto;*/
     width: 100%;
     background: #FAFAFA;
     /* border-bottom: 1px solid #5c307d; */
     border-bottom: 1px solid #18453b;
     position: fixed;
     top: 0px;
+    left:0px;
 }
 
 ul#menu {
