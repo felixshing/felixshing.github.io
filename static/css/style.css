@@ -328,11 +328,14 @@ ol li {
 .avatar {
 
     float: left;
-    width: 250px;
-    height: 250px;
-    text-align: center;
-    overflow: hidden;
-    /*border: 5px solid #FFF;*/
+    width: 280px;
+    height: 280px;
+
+    /*text-align: center;*/
+    /*overflow: hidden;*/
+    border: 0px solid #FFF;
+    margin-top: 8px;
+    margin-left: -25px;
     /*margin-right: 50px;*/
     /* border-radius: 150px 150px 150px 150px; */
     /*border-radius: 50px 50px 50px 50px;*/
