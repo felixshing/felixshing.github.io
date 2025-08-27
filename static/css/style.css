@@ -337,8 +337,7 @@ ol li {
 }
 
 .avatar {
-
-    float: left;
+    float: right;
     width: 280px;
     height: 280px;
 
@@ -346,8 +345,7 @@ ol li {
     /*overflow: hidden;*/
     border: 0px solid #FFF;
     margin-top: 8px;
-    margin-left: -155px;
-    margin-right: -50px;
+    margin-right: 400px;
     /* border-radius: 150px 150px 150px 150px; */
     /*border-radius: 50px 50px 50px 50px;*/
 }
@@ -368,12 +366,12 @@ ol li {
 }
 .name {
     float: right;
-    margin-left: -100px;
-    width: 80%;
+    margin-left: 100px;
+    width: 100%;
 }
 
 #logo {
-    width: 90%;
+    width: 100%;
     max-width: 1280px;
     position: relative;
     height: 200px;
@@ -1163,20 +1161,12 @@ img { max-width: 100%; height: auto; display: block; }
   position: relative;        /* keep for internal positioning if needed */
 }
 
-/* 2) Avatar column */
-.avatar {
-  float: none;               /* cancel old float */
-  width: 280px;
-  height: auto;              /* was fixed 280px */
-  margin: 8px 0 0 0;         /* remove negative margins */
-  border: 0;
-  flex: 0 0 280px;
-}
+
 
 /* 3) Name/intro column */
 .name {
   float: none;               /* cancel old float */
-  margin: 0;                 /* remove negative left margin */
+  margin: 0 0 0 -140px;                 /* remove negative left margin */
   width: auto;               /* let flex size it */
   flex: 1 1 420px;           /* grows, with a comfy minimum */
   min-width: 320px;
@@ -1216,32 +1206,4 @@ ul#menu span { display: none; }  /* remove manual "|" separators */
 }
 
 
-/* Fix layout for avatar + map images */
-#logo {
-  display: flex;
-  align-items: flex-start;
-  gap: 24px;
-  flex-wrap: wrap;
-  height: auto; /* allow natural height */
-}
 
-.avatar {
-  float: none;          /* cancel old float */
-  margin: 0;            /* remove negative margins */
-  width: 240px;         /* scale down slightly for better balance */
-  height: auto;
-  flex: 0 0 240px;      /* fixed column width */
-}
-
-.map {
-  position: static;     /* cancel absolute positioning */
-  flex: 0 0 220px;      /* fixed column width */
-  text-align: center;
-}
-
-.name {
-  float: none;          /* cancel old float */
-  margin: 0;
-  flex: 1 1 420px;      /* take remaining space */
-  min-width: 320px;
-}
