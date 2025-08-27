@@ -1142,3 +1142,75 @@ table tr td {
 pre {
     font: normal 100% 'consolas', arial, sans-serif;
 }
+
+/* ========= Fixes for header distortion ========= */
+
+/* 0) sensible box sizing + responsive images */
+html { box-sizing: border-box; }
+*, *::before, *::after { box-sizing: inherit; }
+img { max-width: 100%; height: auto; display: block; }
+
+/* 1) Make the logo/header a flex container instead of floats/absolute */
+#logo {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;           /* stack nicely on smaller widths */
+  gap: 24px;
+  width: 90%;
+  max-width: 1280px;
+  margin-top: 60px;
+  height: auto;              /* was 200px; allow natural height */
+  position: relative;        /* keep for internal positioning if needed */
+}
+
+/* 2) Avatar column */
+.avatar {
+  float: none;               /* cancel old float */
+  width: 280px;
+  height: auto;              /* was fixed 280px */
+  margin: 8px 0 0 0;         /* remove negative margins */
+  border: 0;
+  flex: 0 0 280px;
+}
+
+/* 3) Name/intro column */
+.name {
+  float: none;               /* cancel old float */
+  margin: 0;                 /* remove negative left margin */
+  width: auto;               /* let flex size it */
+  flex: 1 1 420px;           /* grows, with a comfy minimum */
+  min-width: 320px;
+}
+
+/* 4) Map column — stop absolutely positioning */
+.map {
+  position: static;          /* was absolute */
+  left: auto; top: auto;
+  overflow: hidden;
+  text-align: center;
+  flex: 0 0 280px;           /* sits as a third column when room allows */
+}
+
+/* 5) Typography & line height for stability across zooms */
+body { line-height: 1.5; }
+h1, h2 { line-height: 1.2; }
+
+/* 6) Tidy the menu to reduce wrap glitches (optional but helps) */
+ul#menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  padding-right: 5%;
+}
+ul#menu span { display: none; }  /* remove manual "|" separators */
+
+/* 7) Responsive breakpoints to avoid the “just-barely-wraps” state */
+@media (max-width: 1000px) {
+  #logo { gap: 16px; }
+  .map { flex: 0 0 220px; }
+}
+@media (max-width: 700px) {
+  #logo { flex-direction: column; }
+  .avatar, .map { width: 100%; max-width: 360px; }
+  .name { min-width: 0; }
+}
