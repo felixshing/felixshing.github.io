@@ -1214,3 +1214,34 @@ ul#menu span { display: none; }  /* remove manual "|" separators */
   .avatar, .map { width: 100%; max-width: 360px; }
   .name { min-width: 0; }
 }
+
+
+/* Fix layout for avatar + map images */
+#logo {
+  display: flex;
+  align-items: flex-start;
+  gap: 24px;
+  flex-wrap: wrap;
+  height: auto; /* allow natural height */
+}
+
+.avatar {
+  float: none;          /* cancel old float */
+  margin: 0;            /* remove negative margins */
+  width: 240px;         /* scale down slightly for better balance */
+  height: auto;
+  flex: 0 0 240px;      /* fixed column width */
+}
+
+.map {
+  position: static;     /* cancel absolute positioning */
+  flex: 0 0 220px;      /* fixed column width */
+  text-align: center;
+}
+
+.name {
+  float: none;          /* cancel old float */
+  margin: 0;
+  flex: 1 1 420px;      /* take remaining space */
+  min-width: 320px;
+}
